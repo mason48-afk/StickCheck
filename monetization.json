@@ -1,8 +1,13 @@
 {
-  "amazonTrackingId": "",
-  "amazonAccountAuthorized": false,
-  "adsensePublisherId": "",
+  "amazonTrackingId": "masonp48-20",
+  "amazonAccountAuthorized": true,
+  "adsensePublisherId": "ca-pub-3665788047035678",
   "adsenseSiteApproved": false,
   "consentSetupConfirmed": false,
-  "adSlots": {"middle": "", "bottom": "", "shopping": ""}
+  "adSlots": {
+    "middle": "",
+    "bottom": "",
+    "shopping": ""
+  },
+  "adsenseCodeEnabled": true
 }
