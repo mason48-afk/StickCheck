@@ -6,3 +6,6 @@ for (const file of ['index.html','guide.html','privacy.html','repair.html','robo
 }
 for(let i=0;i<9;i++) copyFileSync('font-'+i+'.ttf','dist/fonts/font-'+i+'.ttf');
 console.log('Prepared StickCheck static assets in dist/');
+
+// Apply verified account IDs and disclosures after preparing the public files.
+await import('./configure-monetization.mjs');
